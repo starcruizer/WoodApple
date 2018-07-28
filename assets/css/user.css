@@ -1,0 +1,104 @@
+html ,body {height: 100%; background: #FFFFFF;}
+html {overflow: scroll; overflow-x: hidden; overflow-x: hidden;}
+
+::-webkit-scrollbar {width: 0px; background: transparent;}
+
+/* optional: show position indicator in red 
+::-webkit-scrollbar-thumb{background: #14C06E;}  */
+
+/*@font-face {font-family: 'Anurati-Regular'; src: url('../fonts/anurati-regular.otf'); font-weight: normal; font-style: normal;}*/
+
+section {}
+.navbar {}
+
+.navbar-woodapple
+{
+	background-color: #FFFFFF;
+	border-top: 2px solid #EB2D90;
+	border-radius: 0px !important;
+	/*box-shadow: 0px 0px 5px #AAA;*/
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 0px !important;
+}
+
+.navbar-woodapple .navbar-header .navbar-brand
+{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+.navbar-woodapple .navbar-nav > li > a
+{
+	color: #666666;
+	font-weight: bold;
+	text-rendering: all;
+	letter-spacing: 1px;
+}
+
+.navbar-woodapple .navbar-nav > li > a:hover
+{
+	color: #EB2D90;
+	background-color: #FFFFFF !important;
+}
+
+.btn
+{
+    border-radius: 0px !important;
+    letter-spacing: 2px;
+}
+
+.btn-woodapple
+{
+	background: #EB2D90;
+	color: #FFFFFF !important;
+}
+
+.btn-woodapple:hover
+{
+	background-color: rgba(235,45,144,0.8);
+	color: #FFFFFF;
+}
+
+/* .icon-bar */
+
+.footer
+{
+	min-height: 250px;
+	background: #666;
+	color: #CCC;
+	border-top: 2px solid #EB2D90;
+	z-index: -1;
+}
+
+.navbar-toggler {}
+.navbar-toggler::after { border-radius: 0px;	border: none; }
+
+input[type=text]
+{
+	box-shadow: 0px !important;
+	outline: 0px !important;
+	min-width: 100%;
+	padding: 5px 5px 5px 5px;
+}
+
+input[type=password]
+{
+	box-shadow: 0px !important;
+	outline: 0px !important;
+	min-width: 100%;
+	padding: 5px 5px 5px 5px;
+}
+
+input[type=search]
+{
+	box-shadow: 0px !important;
+	outline: 0px !important;
+}
+
+
+
+.login-sec
+{
+	padding-top: 63px;
+	min-height: calc(100% - 250px);
+}
