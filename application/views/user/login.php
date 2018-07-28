@@ -18,5 +18,4 @@
 </section>
 <!-- Testimonial Section Ends -->
 
-
 <?php include "footer.php"; ?>

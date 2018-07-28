@@ -30,4 +30,9 @@ class User extends CI_Controller {
 			}
 		}
 	}
+
+	private function savedata()
+	{
+		
+	}
 }

@@ -58,9 +58,7 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
-  -->
-  
-  
+	-->
     </ul>
     <ul class="navbar-nav">
 	    <li class="nav-item">
@@ -69,11 +67,10 @@
 		<li class="nav-item">
             <a class="nav-link" href="<?= base_url('user/login'); ?>">Login<span class="sr-only">(current)</span></a>
         </li>
-    <li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link" href="<?= base_url('email'); ?>">Contact Us<span class="sr-only">(current)</span></a>
         </li>
-  </ul>
-  
+	</ul>
   </div>
 </div>
 </nav>
