@@ -34,7 +34,7 @@
         <a class="nav-link" href="<?= base_url('home/about'); ?>">About</a>
       </li>
 	  <li class="nav-item active">
-        <a class="nav-link" href="<?= base_url('home/courses'); ?>">Courses</a>
+        <a class="nav-link" href="<?= base_url('home/programs'); ?>">Programs</a>
       </li>
 	  <li class="nav-item active">
         <a class="nav-link" href="<?= base_url('home/gallery'); ?>">Gallery</a>

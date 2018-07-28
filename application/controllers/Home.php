@@ -28,8 +28,8 @@ class Home extends CI_Controller {
         $this->load->view('home/about');
     }
     
-    public function test()
+    public function programs()
     {
-        $this->load->view('home/test');
+        $this->load->view('home/programs');
     }
 }
