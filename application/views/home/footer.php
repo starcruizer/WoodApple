@@ -56,9 +56,8 @@ function initMap() {
 <!-- JS Script for GMaps -->
 
 <!-- JS Scripts-->
-<script type="text/javascript" src="<?= base_url('assets/mdbootstrap/js/jquery.js'); ?>"></script>
-<script type="text/javascript" src="<?= base_url('assets/mdbootstrap/js/bootstrap.js'); ?>"></script>
-<script type="text/javascript" src="<?= base_url('assets/mdbootstrap/js/mdb.js'); ?>"></script>
+<script type="text/javascript" src="<?= base_url('assets/js/jquery.js'); ?>"></script>
+<script type="text/javascript" src="<?= base_url('assets/js/bootstrap.js'); ?>"></script>
 <script type="text/javascript" src="<?= base_url('assets/js/home.js'); ?>"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7RpNL2_uC6XxYjutlLHvRz4oF-ADT6Qs&callback=initMap"></script>
 <!-- JS Scripts-->

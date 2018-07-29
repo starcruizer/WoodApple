@@ -13,8 +13,9 @@
 	<link href="<?= base_url('assets/images/favicon.png'); ?>" rel="ico" type="images/ico" />
 
 	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/mdbootstrap/css/bootstrap.min.css'); ?>">
+  <link rel="stylesheet" type="text/css" href="<?= base_url('assets/mdbootstrap/css/mdb.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/home.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/mdbootstrap/css/mdb.min.css'); ?>">
+	
 </head>
 <body>
 

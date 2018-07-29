@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<br>
+<br><br>
 
 <div class="header">
   <h1>Some special moments ...</h1>
