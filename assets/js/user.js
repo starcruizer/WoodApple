@@ -31,8 +31,8 @@ $('#send-btn').click(function(){
 					$.post(baseurl+'email/send', {name:Name, email:Email, message:Message, purpose:Purpose,copy:Copy}, function(result){
 						alert(result);
 					});
-
 					return true;
+					
 				} else {
 					alert('Kindly fill in Message field');
 					return false;
