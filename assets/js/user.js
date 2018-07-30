@@ -21,14 +21,13 @@ $('#send-btn').click(function(){
 	var Email=$('#email').val();
 	var Message = $('#message').val();
 	var Purpose = $('#purpose').val();
-	var Copy = $('#defaultContactFormCopy').val();
 	
 	if (Name) {
 		if (Email) {
 			if (Purpose) {
 				if (Message) {
-
-					$.post(baseurl+'email/send', {name:Name, email:Email, message:Message, purpose:Purpose,copy:Copy}, function(result){
+					
+					$.post(baseurl+'email/send', {name:Name, email:Email, message:Message, purpose:Purpose}, function(result){
 						alert(result);
 					});
 					return true;

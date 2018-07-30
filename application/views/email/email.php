@@ -27,12 +27,6 @@
             <textarea id="message" class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
         </div>
     
-        <!-- Copy -->
-        <div class="custom-control custom-checkbox mb-4">
-            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-        </div>
-    
         <!-- Send button -->
         <button class="btn btn-pink btn-block" type="submit" id="send-btn">Send</button>
     
